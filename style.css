@@ -247,7 +247,7 @@ footer {
 	background-color: #e5e5e5;
 	border-top: 2px solid #b7b7b7;
 	margin-top: 48px;
-	padding: 37px 0 0 0;
+	padding: 37px 0 12px 0;
 }
 
 .footer-left {
@@ -311,14 +311,18 @@ footer {
 	margin: 0;
 }
 
+.head-office p span{
+	text-decoration: underline;
+}
+
 .branch-office {
 	float: left;
-	margin: 29px 0px 0 0;
+	margin: 19px 0px 0 0;
 	padding-top: 0;
 }
 
 .branch-office:first-child {
-	margin: 29px 32px 0 0;
+	margin: 19px 32px 0 0;
 }
 
 .branch-office h5 {
@@ -333,8 +337,13 @@ footer {
 	line-height: 19px;
 }
 
+.branch-office p span{
+	text-decoration: underline;
+}
+
 .border-dash {
 	border-top: 2px dashed #b7b7b7;
+	padding: 20px 0 32px 0;
 	font-size: 12px;
 }
 
@@ -343,12 +352,19 @@ footer {
 }
 
 .copyright a{
-	padding: 20px 0 32px 0;
+	display: inline-block;
 	margin-left: 5px;
+	padding-left: 22px;
 	font-weight: bold;
 	font-size: 14px;
 	color: black;
 	text-decoration: none;
-	background: url(/images/logo2.png) no-repeat;	
+	background: url(/images/logo2.png) 0px -3px no-repeat;	
+}
+
+.copyright div.border-dash span{
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
 }
 
