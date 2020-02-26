@@ -13,6 +13,12 @@ body {
 	display: block;
 }
 
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 nav {
 	background-color: #a81f00;
 	/* width: 100%;
@@ -43,6 +49,7 @@ nav a {
 	font-size: 14px;
 	text-decoration: none;
 	line-height: 44px;
+	font-family: "Open Sans";
 }
 
 nav a:hover {
@@ -306,12 +313,12 @@ footer {
 
 .head-office p {
 	font-size: 14px;
+	font-weight: bold;
 	line-height: 20px;
-	font-weight: normal;
 	margin: 0;
 }
 
-.head-office p span{
+.head-office p span {
 	text-decoration: underline;
 }
 
@@ -337,34 +344,34 @@ footer {
 	line-height: 19px;
 }
 
-.branch-office p span{
+.branch-office p span {
 	text-decoration: underline;
 }
 
 .border-dash {
-	border-top: 2px dashed #b7b7b7;
+	border-top: 1px dashed #b7b7b7;
 	padding: 20px 0 32px 0;
-	font-size: 12px;
 }
 
 .copyright {
 	background-color: #e5e5e5;
 }
 
-.copyright a{
+.copyright a {
 	display: inline-block;
-	margin-left: 5px;
-	padding-left: 22px;
+	margin-left: 2px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 24px;
 	font-weight: bold;
 	font-size: 14px;
 	color: black;
 	text-decoration: none;
-	background: url(/images/logo2.png) 0px -3px no-repeat;	
+	background: url(/images/logo2.png) 0px center no-repeat;
 }
 
-.copyright div.border-dash span{
+.copyright div.border-dash span {
 	float: right;
 	font-weight: bold;
 	font-size: 20px;
 }
-
